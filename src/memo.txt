@@ -1,0 +1,9 @@
+takuya@RTX4060:~$ find . -type d | grep highway
+./.conda/envs/python_robotics/lib/python3.12/site-packages/highway_env
+------------------------------------------------------------------
+takuya@RTX4060:~$ find .conda/envs/python_robotics/ -type d | grep imitation
+.conda/envs/python_robotics/lib/python3.12/site-packages/imitation
+.conda/envs/python_robotics/lib/python3.12/site-packages/imitation/algorithms
+------------------------------------------------------------------
+
+/home/takuya/.conda/envs/python_robotics/lib/python3.12/site-packages
