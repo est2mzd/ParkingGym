@@ -16,7 +16,6 @@ vehicle_model:
     distance_from_rear_tire_to_rear_bumper_m: 1.0  # distance from rear to vehicle back end
     maximum_steering_angle_deg: 34.4  # 0.6[rad] maximum steering angle
 
-
 stanley_controller:
     steer_control_gain: 0.5  # control gain
     speed_proportional_gain: 1.0  # speed proportional gain
