@@ -11,7 +11,7 @@ import yaml
 import pandas as pd
 
 # 設定ファイルの読み込み
-config_file_path = "./configs/base_settings.yaml"
+config_file_path = "./Configs/base_settings.yaml"
 #
 with open(config_file_path, "r", encoding="utf-8") as file:
     config = (yaml.safe_load(file))["hybrid_a_star"]
