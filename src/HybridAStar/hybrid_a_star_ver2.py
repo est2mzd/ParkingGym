@@ -257,7 +257,7 @@ def calc_rs_path_cost(reed_shepp_path):
     return cost
 
 #=============================================================#
-def hybrid_a_star_planning(start, goal, ox, oy, xy_resolution, yaw_resolution):
+def hybrid_a_star_planning(start, goal, ox, oy, xy_resolution=XY_GRID_RESOLUTION, yaw_resolution=YAW_GRID_RESOLUTION):
     """
     start: start node
     goal: goal node

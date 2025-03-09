@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 from ReedsSheppPath import reeds_shepp_path_planning as rs
 
 from HybridAStar.car import move, check_car_collision, MAX_STEER, WB, plot_car, BUBBLE_R
-from TmcMaps import sample_map
+from Maps import sample_map
 import yaml
 import pandas as pd
 

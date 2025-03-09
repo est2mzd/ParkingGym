@@ -57,7 +57,14 @@ RUN source ~/.bashrc && \
 RUN source ~/.bashrc && \
     /opt/miniconda/bin/conda run -n python_robotics pip install gymnasium && \
     /opt/miniconda/bin/conda run -n python_robotics pip install highway-env && \
-    /opt/miniconda/bin/conda run -n python_robotics pip install imitation
+    /opt/miniconda/bin/conda run -n python_robotics pip install imitation && \
+    /opt/miniconda/bin/conda run -n python_robotics pip install shapely
+
+RUN echo 'conda deactivate' >> ~/.bashrc && \
+    echo '# base 環境の自動アクティブ化を無効化' >> ~/.bashrc && \
+    echo 'conda config --set auto_activate_base false' >> ~/.bashrc
+
+#    echo 'conda activate python_robotics' >> ~/.bashrc
     
 
 #======================================================#

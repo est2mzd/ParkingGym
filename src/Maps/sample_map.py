@@ -2,6 +2,8 @@ import math
 #
 def create_map(ox, oy):
     print("Call : create_map")
+    
+    # 壁の定義
     for i in range(60):
         ox.append(i)
         oy.append(0.0)
